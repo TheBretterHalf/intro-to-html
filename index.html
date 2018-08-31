@@ -7,22 +7,71 @@
         <style>
         header{
             background-color: green;
-            font: comic;
+            border-color:red;
+            border-radius:90%;
+            border-style:solid;
+            border-width:10px;
         }
-            h1{
+        h1{
                 color: thistle;
                 font: comic;
             }
-            
+        h4{
+            text-align:center;
+        }
+        img {
+            float: center;
+            width:100px;height:100px;
+            border-radius:50%;
+        }
+        body{
+            background-color:thistle;
+        }
+        .myParagraph{
+                background-color:violet;
+                border-style:groove;
+                border-color:pink;
+                font-family: comic
+                margin:auto;
+                text-align: center;
+            }
+        .center{
+            display: block;
+            margin-left:auto;
+            margin-right:auto;
+            border-style: dotted;
+            border-color: black;
+            border-radius:25%;
+        }
+        #list {
+            width: 100px;
+            margin: auto;
+        }
         </style>
     </head>
     <body>
         <header>
         <marquee>
-        <h1>
-            Welcome to CareerDevs!
-        </h1>
+            <h1 class="floatingMargin">This is Brett's Website</h1>
         </marquee>
         </header>
+            <main>
+                <h4>Brett would like to introduce you to his page!</h4>
+            <div>
+                <img src="https://upload.wikimedia.org/wikipedia/commons/f/f9/Phoenicopterus_ruber_in_S%C3%A3o_Paulo_Zoo.jpg" alt="this is a bird" class="center">
+                    <p class="myParagraph">
+                        This is a paragraph</p>
+                            <ul id="list">
+                                <li>List item 1</li>
+                                <li>List item 2</li>
+                                <li>List item 3</li>
+                            </ul>
+            </div>
+            <div>
+                <h3>
+                    Nash Bridges Should Still Be on TV
+                </h3>
+            </div>
+        </main>
     </body>
 </html>
